@@ -1,0 +1,1 @@
+export let content=document.createElement("div");
