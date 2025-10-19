@@ -1,78 +1,81 @@
-html, body{
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   min-height: 100vh;
-   min-width: 100vw;
-   display: flex;
-   flex-direction: column;
-   padding:0;
-   margin:0;
-
+html,
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
 }
-header{
-   height: 4.5rem;
-   background-color: rgb(239, 238, 238);
+header {
+  height: 4.5rem;
+  background-color: rgb(239, 238, 238);
 }
-nav{
-   display: flex;
-   justify-content: space-around;
-   height: 100%;
-   align-items: center;
-}
-
-button{
-   height: 3rem;
-   font-size: 2rem;
-}
-.pressed{
-   background-color: cyan;
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
 }
 
-#content{
-   display: flex;
-   flex-direction: column;
-   gap:2rem;
-   justify-content: center;
-   align-items: center;
-   background-image: url(/media/background1.1.svg);
-    background-color: #d3a474;
-   min-height: 100vh;;
+button {
+  height: 3rem;
+  font-size: 2rem;
+}
+.pressed {
+  background-color: cyan;
 }
 
-.container{
-   width: 100vw;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding:2rem;
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/media/background1.1.svg);
+  background-color: #d3a474;
+  min-height: 100vh;
 }
 
-.card{
-   background-color: #fbd233;
-   width: 80vw;
-   min-height: 30vh;
-   border: 1rem solid whitesmoke;
-   display:flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   padding:1rem;
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
-.cardHeading{
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 1.8rem;
+.card {
+  background-color: #fbd233;
+  width: 80vw;
+  min-height: 30vh;
+  border: 1rem solid whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
 }
 
-.cardText,li{
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-size: 1rem;
-}
-#card2head{
-   align-self:flex-end;
+.cardHeading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.8rem;
 }
 
-li{
-   list-style: none;
+.cardText,
+li {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+#card2head {
+  align-self: flex-end;
+}
+
+li {
+  list-style: none;
 }
